@@ -3,7 +3,7 @@ import React from 'react';
 import Profile from '../../components/profile';
 import sd from 'skin-deep';
 
-describe('Profile', () => {
+describe('Profile component', () => {
   it('should have the correct props', () => {
     const tree = sd.shallowRender(React.createElement(Profile, {
       isAdmin: true,
