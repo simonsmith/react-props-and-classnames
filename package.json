@@ -1,0 +1,27 @@
+{
+  "name": "react-props-and-classnames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/components --compilers js:babel-register"
+  },
+  "author": "Simon Smith",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "lodash.assign": "^4.0.1",
+    "lodash.omit": "^4.0.2",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.6"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^0.14.3",
+    "skin-deep": "^0.14.0"
+  }
+}
