@@ -33,7 +33,8 @@ Profile.defaultProps = {
 Profile.propTypes = {
   className: PropTypes.string,
   isAdmin: PropTypes.bool,
-  username: PropTypes.string
+  username: PropTypes.string,
+  useDefaultClassName: PropTypes.bool
 };
 
 export default Profile;
